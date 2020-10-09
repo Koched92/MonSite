@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="032700eb-e027-4025-a1f1-57b692ab6fb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/home/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +176,7 @@
       <updated>1602161604349</updated>
       <workItem from="1602161605584" duration="13216000" />
       <workItem from="1602196779067" duration="4879000" />
-      <workItem from="1602241412346" duration="18430000" />
+      <workItem from="1602241412346" duration="19152000" />
     </task>
     <servers />
   </component>
