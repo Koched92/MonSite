@@ -3,32 +3,8 @@
 {% block title %}Hello!{% endblock %}
 
 {% block body %}
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#">Hichém KOCHÉD</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">à propos</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#hobbie">Passe-Temps</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+{{ include('home/nav.html.twig') }}
 
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
@@ -284,46 +260,7 @@
         </div>
     </section>
 
-    <footer class="footer text-center">
-
-                <div class="container">
-                    <div class="row">
-
-                        <!-- Footer Location -->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Localisation</h4>
-                            <p class="lead mb-0">adresse</p>
-                        </div>
-
-                        <!-- Footer Social Icons -->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Réseaux sociaux</h4>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#" onclick="window.open('https://www.facebook.com/hichem.koched')">
-                                <i class="fab fa-fw fa-facebook-f"></i>
-
-                            </a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#"  onclick="window.open('https://github.com/Koched92')">
-                                <i class="fab fa-fw fa-github"></i>
-                            </a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#" onclick="window.open('https://www.linkedin.com/in/hichem-koched-b2b153151/')">
-                                <i class="fab fa-fw fa-linkedin-in"></i>
-                            </a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#" onclick="window.open('https://www.researchgate.net/profile/Hichem_Koched2')">
-                                <i class="fab fa-fw fa-researchgate"></i>
-                            </a>
-                        </div>
-
-                        <!-- Footer About Text -->
-                        <div class="col-lg-4">
-                            <h4 class="text-uppercase mb-4">Technologies du site</h4>
-                            <p class="lead mb-0">Portfolio crée avec Symfony4 et Twig2 sur un template téléchargé de
-                                <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                        </div>
-
-                    </div>
-                </div>
-
-    </footer>
+    {{ include('home/footer.html.twig') }}
 
     <section class="copyright py-4 text-center text-white">
         <div class="container">
@@ -419,15 +356,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
     <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
@@ -493,7 +421,7 @@
                                             <div class="divider-custom-line"></div>
                                         </div>
                                         <!-- Portfolio Modal - Image -->
-                                        <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                                        <img class="img-fluid rounded mb-5" src="img/game.png" alt="">
                                         <!-- Portfolio Modal - Text -->
                                         <p class="mb-5"></p>
                                         <button class="btn btn-primary" href="#" onclick="window.open('')" data-dismiss="modal">
@@ -808,15 +736,8 @@
                                 </div>
                             </div>
                         </div>
-
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 {% endblock %}
