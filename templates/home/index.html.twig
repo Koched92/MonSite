@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello!{% endblock %}
+{% block title %}Hichem KOCHED{% endblock %}
 
 {% block body %}
 
@@ -25,7 +25,8 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading -->
-            <p class="masthead-subheading font-weight-light mb-0"></p>
+            <p class="masthead-subheading font-weight-bolder mb-0">Développeur web diplômé de l'université de Montpellier</p>
+            <img id="icon_university" class="masthead-subheading font-weight-bolder mb-0" src="{{ asset('img/montpellier.png') }}" >
         </div>
     </header>
 
@@ -140,23 +141,26 @@
 
             <!-- About Section Content -->
             <div class="row">
+
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">Fort d’une double compétence en informatique et en géosciences, j’ai pu ainsi prouver ma capacité à
+                    <p class="lead text-justify">Fort d’une double compétence en informatique et en géosciences, j’ai pu ainsi prouver ma capacité à
                         m’adapter à des environnements diversifiés, ma motivation et mon haut degré d’autonomie. Grâce
                         aux différents projets décrits dans mon CV, j’ai pu également développer ma capacité à travailler en
                         équipe ainsi que ma capacité à communiquer en situation professionnelle. </p>
                 </div>
+
                 <div class="col-lg-4 mr-auto">
-                    <p class="lead">Etudiant en master 2 informatique, je suis à la recherche d’un stage de fin de cycle pour
+                    <p class="lead text-justify">Etudiant en master 2 informatique, je suis à la recherche d’un stage de fin de cycle pour
                         compléter ma formation en IPS, Je suis motivé, curieux avec l’envie de mettre en application
                         les compétences acquises lors de mes formations et aussi découvrir la diversité des outils mis à
                         disposition, dans un domaine en perpétuel expansion.</p>
                 </div>
+
             </div>
 
             <!-- About Section Button -->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" onclick="window.open('https://drive.google.com/open?id=1_nZcV9NoSFU2ggBfydpT5qT2xAseCOq7')" href="#">
+                <a class="btn btn-xl btn-outline-light" onclick="window.open('https://drive.google.com/file/d/0B8O191KvJO1oU283RUNlVTZ0eTlLM0JVbjBLWE9KbDZrMEQw/view?usp=sharing')" href="#">
                     <i class="fas fa-download mr-2"></i>
                     Téléchargez mon CV !
                 </a>
@@ -262,11 +266,6 @@
 
     {{ include('home/footer.html.twig') }}
 
-    <section class="copyright py-4 text-center text-white">
-        <div class="container">
-            <small>Copyright &copy; Your Website 2019</small>
-        </div>
-    </section>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-to-top d-lg-none position-fixed ">
